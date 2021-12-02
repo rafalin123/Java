@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class ejercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		
+		//Declaración de variables
+		int n1;
+		int n2;
+		
+		//Pedimos los numeros al usuario
+		
+		System.out.print("Introduce dos numeros para comprobar si son iguales");
+		
+		
+		
+	}
+
+}

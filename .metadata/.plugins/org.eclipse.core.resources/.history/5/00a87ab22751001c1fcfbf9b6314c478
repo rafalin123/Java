@@ -1,0 +1,29 @@
+package relacion1;
+import java.util.Scanner;
+
+public class ejercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		try (//Creamos una instacia de Scanner
+		Scanner in = new Scanner(System.in)) {
+			//Declaración de variables
+			int numero;
+			int doble;
+			int mitad;
+			
+			//Preguntamos al usuario
+			System.out.print("Escribe un numero: ");
+			numero = in.nextInt();
+			
+			doble= numero*2;
+			mitad= numero/2;
+			//Mostramos el resultado por pantalla
+			
+			System.out.print("\nEl doble del numero introducido es: "+doble);
+			System.out.print("\nLa mitad del numero introducido es: "+ mitad);
+		}
+	}
+
+}

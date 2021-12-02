@@ -1,0 +1,33 @@
+package relacion1;
+
+import java.util.Scanner;
+
+public class ejercicio10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Creamos una instacia de Scanner
+		Scanner in = new Scanner(System.in);
+		
+		//Declaramos variables
+		int h,m,s,tm,ts;
+		
+		//Pedimos horas, minutos, segundos al usuario
+		System.out.print("Introduce las horas");
+		h=in.nextInt();
+		System.out.print("Introduce los minutos");
+		m=in.nextInt();
+		System.out.print("Introduce los segundos");
+		s=in.nextInt();
+		
+		//Realizamos los calculos necesarios para pasarlo todo a segundos
+		tm=h*60;
+		m=m+tm;
+		ts=m*60;
+		s=s+ts;
+	
+		//Mostramos los resultados por pantalla
+		System.out.print("El total de segundos a partir de las 00:00:00 son: "+s+" segundos");
+	}
+
+}

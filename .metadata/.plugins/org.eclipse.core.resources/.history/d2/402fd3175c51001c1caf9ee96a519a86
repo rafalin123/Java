@@ -1,0 +1,29 @@
+package relacion1;
+import java.util.Scanner;
+
+public class ejercicio8 {
+	
+	public static void main(String[] args) {
+	//Creamos una instacia de Scanner
+	Scanner in = new Scanner(System.in);
+
+		//Declaramos la variables
+	int aux,v1,v2;
+	
+	//Damos valor a las variables
+	v1=10;
+	v2=20;
+	
+	//Mostramos la variables antes del intercambio
+	System.out.print("Variable 1 sin intercambiar: "+v1);
+	System.out.print("\nVariable 2 sin intercambiar: "+v2+"\n");
+	
+	//Para hacer el intercambio de variables utilizaremos un auxiliar
+	System.out.print("INTERCAMBIO DE VARIABLES...");
+	aux=v1;
+	v1=v2;
+	v2=aux;
+	System.out.print("\nAhora el valor de la v1 es: "+v1);
+	System.out.print("\nAhora el valor de la v2 es: "+v2);
+}
+}

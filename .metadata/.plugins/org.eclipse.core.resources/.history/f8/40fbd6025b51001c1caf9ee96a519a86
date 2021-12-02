@@ -1,0 +1,8 @@
+package relacion1;
+import java.util.Scanner;
+
+public class ejercicio7 {
+	//Creamos una instacia de Scanner
+	Scanner in = new Scanner(System.in);
+
+}

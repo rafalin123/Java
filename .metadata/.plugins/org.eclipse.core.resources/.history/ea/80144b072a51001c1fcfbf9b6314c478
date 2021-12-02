@@ -1,0 +1,29 @@
+package relacion1;
+
+import java.util.Scanner;
+
+public class ejercicio2 {
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Creamos una instacia de Scanner
+		Scanner in = new Scanner(System.in);
+		
+		//Declaracion de variables
+		int radio;
+		int perimetro;
+		int area;
+		
+		//Pedimos informacion el usuario
+		System.out.print("Introduce el radio del circulo para calcular el perimero y el area: ");
+		radio=in.nextInt();
+		
+		perimetro = (int) (2*Math.PI*radio);
+		area = (int) (Math.PI*(radio*2));
+		
+		System.out.print("\nEl perimetro del circulo es "+perimetro+"\nEl area del circulo es: "+area);
+	}
+
+}

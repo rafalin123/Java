@@ -1,0 +1,27 @@
+package relacion1;
+import java.util.Scanner;
+
+public class ejercicio7 {
+	
+	public static void main(String[] args) {
+	//Creamos una instacia de Scanner
+	Scanner in = new Scanner(System.in);
+
+		//Declaramos la variables
+	int aux,v1,v2;
+	
+	System.out.print("Introducir el valor 1:");
+	v1= in.nextInt();
+	
+	System.out.print("Introduce el valor 2: ");
+	v2=in.nextInt();
+	
+	//Para hacer el intercambio de variables utilizaremos un auxiliar
+	
+	aux=v1;
+	v1=v2;
+	v2=aux;
+	System.out.print("\nAhora el valor de la v1 es: "+v1);
+	System.out.print("\nAhora el valor de la v2 es: "+v2);
+}
+}

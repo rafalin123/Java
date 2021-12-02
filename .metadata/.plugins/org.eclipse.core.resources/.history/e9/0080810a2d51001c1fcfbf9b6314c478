@@ -1,0 +1,29 @@
+package relacion1;
+import java.util.Scanner;
+
+public class ejercicio5 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Creamos una instacia de Scanner
+		Scanner in = new Scanner(System.in);
+		
+		//Declaracion de variables
+		int hipotenusa;
+		int cateto1;
+		int cateto2;
+		
+		
+		cateto1=10;
+		cateto2=8;
+		
+		System.out.print("Sabiendo la longitud de los dos catetos :"+cateto1+" "+cateto2+" (El programa calcula la hipotenusa)");
+		
+		//Procedemos a calcular la hipotenusa
+		double resultado = Math.pow(cateto1, 2)+Math.pow(cateto2, 2);
+		hipotenusa=(int) Math.sqrt(resultado);
+		
+		System.out.print("\nLa hipotenusa es: "+hipotenusa);
+}
+
+}

@@ -1,0 +1,31 @@
+package relacion1;
+import java.util.Scanner;
+
+public class ejercicio4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Creamos una instacia de Scanner
+		Scanner in = new Scanner(System.in);
+		
+		//Declaracion de variables
+		
+		int numero1;
+		int numero2;
+		int numero3;
+		int media;
+		
+		//Pedimos informacion al usuario
+		
+		System.out.print("Introduce 3 numeros para calcular la media de los 3: ");
+		System.out.print("\nNumero 1: ");
+		numero1= in.nextInt();
+		System.out.print("\nNumero 2: ");
+		numero2= in.nextInt();
+		System.out.print("\nNumero 3: ");
+		numero3= in.nextInt();
+		
+		media= (numero1+numero2+numero3)/3;
+	}
+
+}
